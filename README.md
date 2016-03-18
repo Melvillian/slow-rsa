@@ -13,7 +13,8 @@ A readable Python implementation of the public key encryption algorithm, RSA.
 
 
 RSA uses several interesting mathematical theorems and algorithms. If you are interested please read
-* **Further Study**
-    - [RSA](https://en.wikipedia.org/wiki/RSA)
-    - [Euler's Totient Function](https://en.wikipedia.org/wiki/Euler%27s_totient_function)
-    - [Fermat's Little Theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem)
+
+### Further Study
+* [RSA](https://en.wikipedia.org/wiki/RSA)
+* [Euler's Totient Function](https://en.wikipedia.org/wiki/Euler%27s_totient_function)
+* [Fermat's Little Theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem)
