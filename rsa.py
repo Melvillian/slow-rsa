@@ -191,7 +191,7 @@ def testASCCIConversion():
 def showUsage():
 	print "usage: python rsaimplement.py argument1 [argument2, argument3, argument4]"
 	print "the three valid arguments are:"
-	print "'keygen'                    This will generate a public and private keypair for you to use"
+	print "'keygen'                    This will generate a public (e, n) and private (d, n) keypair for you to use"
 	print "'--encrypt text e n         This will encrypt text using the public keypair (e, n) and print the list of the encrypted blocks"
 	print "'--decrypt text d n         This will decrypt text using the private keypair (d, n) and print the decrypted string"
 
@@ -200,7 +200,6 @@ if __name__ == "__main__":
 	if len(sys.argv) > 1:
 		option = sys.argv[1]
 		if option == ("--encrypt" or "-e") and len(sys.argv) == 5:
-
 			print "the ciphertext list is: " + str(encrypt(sys.argv[2], int(sys.argv[3]), int(sys.argv[4])))
 
 		elif ((sys.argv[1] == "--decrypt") or (sys.argv[1] == "-d")) and  len(sys.argv) == 5:
