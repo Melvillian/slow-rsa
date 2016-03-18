@@ -1,5 +1,6 @@
 # slow-rsa
 A readable Python implementation of the public key encryption algorithm, RSA.
+Written by @Melvillian, @YetiRevolution, and @mlinhmc
 
 ## Commands
 * **keygen** This will generate a public (e, n) and private (d, n) keypair for you to use
